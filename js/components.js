@@ -180,20 +180,20 @@
         + '</div></article>';
     },
 
-    reviewCard: function (r) {
-      return '<article class="card review-card" data-reveal>'
-        + A.stars(r.rating)
-        + '<p class="r-text">"' + esc(r.text) + '"</p>'
-        + '<div class="r-meta"><span class="avatar">' + A.initials(r.name) + '</span>'
-        + '<span><span class="r-name">' + esc(r.name) + '</span><br><span class="r-vehicle">' + esc(r.vehicle || "Verified customer") + '</span></span></div>'
-        + '</article>';
-    },
+    // reviewCard: function (r) {
+    //   return '<article class="card review-card" data-reveal>'
+    //     + A.stars(r.rating)
+    //     + '<p class="r-text">"' + esc(r.text) + '"</p>'
+    //     + '<div class="r-meta"><span class="avatar">' + A.initials(r.name) + '</span>'
+    //     + '<span><span class="r-name">' + esc(r.name) + '</span><br><span class="r-vehicle">' + esc(r.vehicle || "Verified customer") + '</span></span></div>'
+    //     + '</article>';
+    // },
 
-    ratingSummary: function (cfg) {
-      var rv = cfg.review;
-      return '<div class="rating-summary"><span class="big">' + rv.rating + '</span>'
-        + '<span>' + A.stars(rv.rating) + '<br><span class="src">' + rv.count + ' ' + esc(rv.platform) + ' reviews</span></span></div>';
-    },
+    // ratingSummary: function (cfg) {
+    //   var rv = cfg.review;
+    //   return '<div class="rating-summary"><span class="big">' + rv.rating + '</span>'
+    //     + '<span>' + A.stars(rv.rating) + '<br><span class="src">' + rv.count + ' ' + esc(rv.platform) + ' reviews</span></span></div>';
+    // },
 
     faqList: function (faqs) {
       return '<div class="faq-list">' + faqs.map(function (f) {

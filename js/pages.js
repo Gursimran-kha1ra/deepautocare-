@@ -46,7 +46,7 @@
     var why = (cfg.whyChooseUs || []).map(function (w) {
       return '<div class="why-card" data-reveal><span class="why-ic">' + icon(w.icon) + '</span><div><h3>' + esc(w.title) + "</h3><p>" + esc(w.text) + "</p></div></div>";
     }).join("");
-    var reviews = (cfg.reviews || []).slice(0, 3).map(function (r) { return C.reviewCard(r); }).join("");
+   // var reviews = (cfg.reviews || []).slice(0, 3).map(function (r) { return C.reviewCard(r); }).join("");
     var galleryPreview = (cfg.gallery.images || []).slice(0, 6).map(function (img) {
       return '<figure class="gal-item" data-i="0"><img src="' + asset(img.src) + '" alt="' + esc(img.alt) + '" loading="lazy"><figcaption class="gal-cap">' + esc(img.alt) + '</figcaption></figure>';
     }).join("");
