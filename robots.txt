@@ -1,0 +1,5 @@
+# robots.txt for Deep Auto Care
+User-agent: *
+Allow: /
+
+Sitemap: https://www.Deepautocare.ca/sitemap.xml
