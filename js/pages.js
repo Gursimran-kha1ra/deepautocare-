@@ -94,13 +94,13 @@
     +   '<a class="btn btn--lg" style="background:#fff;color:var(--c-emergency)" href="tel:' + esc(b.phone) + '">' + icon("phone") + 'Call ' + esc(b.phoneDisplay) + '</a>'
     + '</div></div></section>'
 
-    /* REVIEWS */
-    + '<section class="section section--soft"><div class="container">'
-    +   '<div class="section-head is-center"><span class="eyebrow is-center">Real customers, real cars</span><h2>Rated ' + cfg.review.rating + ' across ' + cfg.review.count + ' reviews</h2>'
-    +   '<div class="mt-2">' + C.ratingSummary(cfg) + '</div></div>'
-    +   '<div class="grid cols-3">' + reviews + '</div>'
-    +   '<div class="text-center mt-3"><a class="btn btn--ghost btn--lg" href="' + A.base + 'reviews.html">Read all reviews' + icon("arrow") + '</a></div>'
-    + '</div></section>'
+    // /* REVIEWS */
+    // + '<section class="section section--soft"><div class="container">'
+    // +   '<div class="section-head is-center"><span class="eyebrow is-center">Real customers, real cars</span><h2>Rated ' + cfg.review.rating + ' across ' + cfg.review.count + ' reviews</h2>'
+    // +   '<div class="mt-2">' + C.ratingSummary(cfg) + '</div></div>'
+    // +   '<div class="grid cols-3">' + reviews + '</div>'
+    // +   '<div class="text-center mt-3"><a class="btn btn--ghost btn--lg" href="' + A.base + 'reviews.html">Read all reviews' + icon("arrow") + '</a></div>'
+    // + '</div></section>'
 
     /* BEFORE & AFTER */
     + '<section class="section"><div class="container">'

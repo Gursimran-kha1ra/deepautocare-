@@ -13,7 +13,7 @@
     { label: "Services", href: "services.html" },
     { label: "About", href: "about.html" },
     { label: "Gallery", href: "gallery.html" },
-    { label: "Reviews", href: "reviews.html" },
+    // { label: "Reviews", href: "reviews.html" },
     { label: "FAQ", href: "faq.html" },
     { label: "Contact", href: "contact.html" }
   ];
